@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 1.Universal selector */
+        *{
+            margin: 0;
+        }
+        /* 2.type selector */
+        p{
+            font-size:18px ;
+            margin: 16px;
+        }
+        /* 3.class selector */
+        .b{
+            width: 250px;
+            margin: 20px;
+            border-radius:6px ;
+            background-color: blue;
+            color: white;
+            height: 36px;
+        }
+        /* 4.ID selector */
+        #header{
+            background-color: #00ffff
+        }
+        /* 5.attribute selector */
+        input[type="text"]{
+            border: 2px solid rgb(42, 86, 183);
+        }
+        /* 6.Descendant selector */
+        article p{
+            font-style: italic;
+            background-color: olivedrab;
+        }
+        /*7 child selector */
+        div > p{
+            background-color: blueviolet;
+        }
+        /*8 adjacent sibling selector */
+        h1 + p{
+            color: aqua;
+        }
+        /*9 general sibling selector  */
+        h2 ~ p{
+            background-color:orangered;
+            color: aquamarine;
+        }
+        /*10 pseudo-class selector */
+        a:hover{
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            margin: 6px;
+            background-color: burlywood;
+        }
+        /*11 pseudo-class selector*/
+        p::first-letter{
+            color:blue;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        /*12. grouping selector*/
+        h1,h2,h3{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">This is a header</header>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nihil culpa eius molestias consectetur autem ducimus ad, pariatur error odio quas odit illo beatae possimus ipsum blanditiis, corporis eum labore?
+    </p>
+    <input type="text" placeholder="Enter text here">
+    <button class="b">Login</button>
+    <article>
+        <p>
+            This paragraph is inside an article, showing the descendant selector.
+        </p>
+        <p>
+            This paragraph is inside an article, showing the descendant selector.
+        </p>
+        <div>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </article>
+    </div>
+    <div>
+        <p>i am a child</p>
+        <p>i am a child</p>
+        <section>
+            <p>i am a child</p>
+        </section>
+    </div>
+    <h1>this is heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+ <div>
+        <h2>sub heading</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <a href="https://chatgpt.com/">https://chatgpt.com/</a>
+</body>
+</html>

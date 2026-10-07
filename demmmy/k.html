@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Document</title> 
+</head> 
+
+<style> 
+body{ 
+    font-family: Arial, Helvetica, sans-serif; 
+    line-height: 1.6; 
+    padding: 20px; 
+} 
+.box{ 
+    box-sizing: content-box; 
+    width: 300px; 
+    height: 200px; 
+    background-color: white; 
+    text-align: center; 
+    padding: 20px;
+    border: 5px solid black; 
+    margin: 30px; 
+} 
+.content-box{ 
+    box-sizing: content-box; 
+    background-color: lightpink; 
+} 
+.Border-box{ 
+    box-sizing: border-box; 
+    background-color: lightgreen; 
+} 
+</style> 
+
+<body> 
+<h1 style="font-weight: bold;">CSS BOX Model example</h1> 
+
+<h2>Content-box(default)</h2> 
+<div class="box content-box"> 
+        <p>this is a content-box element</p> 
+        <p>width:300px+40px(padding) 10px(border)=350px</p> 
+       <p> heigth:300px+40px(padding) 10px(border)=350px</p> 
+</div> 
+
+<h2>Border-box</h2> 
+<div class="box Border-box"> 
+        <p>this is a Border-box element</p> 
+        <p>width:300px(including padding and border)</p> 
+        <p>height:200px(including padding and border)</p> 
+</div> 
+
+<h1>INLINE ELEMENT VS BLOCKLINE ELEMENT</h1> 
+<p>Lorem ipsum dolor sit amet consectetur <span class="INLINE">adipisicing</span> elit. Incidunt, illum.</p> 
+<p class="BLOCKLINE">Lorem ipsum dolor sit amet consectetur adip isicing elit. Ipsa, cum.</p> 
+
+<h2>Box model components</h2> 
+<p>THE BOX MODEL CONSIST OF:</p> 
+<ul> 
+    <li>content: The actual content of the box,where text and image appears</li> 
+    <li>padding: clears an area around the content(inside the border)</li> 
+    <li>a border that goes around the padding and content</li> 
+    <li>margin: clears an area outside the borderṇ</li> 
+</ul> 
+</body> 
+</html>

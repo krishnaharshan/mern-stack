@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(222, 58, 58);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            height: 330px;
+            width: 240px;
+            background-color: white;
+            border: solid black 1px;
+            border-radius: 13px;
+        }
+        .img{
+            width: 100%;
+            border-radius: 6px;  
+        }
+        .imgbox{
+            width: 220px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin:10px;
+        }
+        .content{
+            margin: 3px;
+            width: 220px;
+            height: 75px;
+        }
+        .no{
+            display: inline;
+            margin-bottom: 10px;
+            margin: 8px;
+        }
+        .y{
+            font-size: 10px;
+            margin: 8px;
+            color: rgb(73, 73, 73);
+            width: 100%;
+        }
+        .add{
+          margin: 3px;
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 10px;
+        }
+        h3{
+            display: inline;
+            margin-left:5px ;
+            
+        }
+        .cart{
+            margin: 0;
+           border: none;
+           color: white;
+           width: 85px;
+           height: 26px;
+           background-color: rgb(41, 129, 176);
+           cursor: pointer;
+           font-size: bold;
+           border-radius: 16px;
+        }
+        .cart:hover{
+            color: black;
+            background-color:  rgb(6, 143, 217);
+        }
+        .share{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .like-btn{
+        width: 30px;
+        height: 30px;
+        margin-left: 8px;
+        border: none;
+        background: #f1f1f1;
+        border-radius: 100%;
+        font-size: 16px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        }
+        .like-btn:hover{
+        background: #ffe6e6;
+        color: red;
+        }
+        .share-btn{ 
+            width: 30px;
+            height: 30px;
+            border: none;
+            background: #e6f0ff;
+            color: #005eff;
+            border-radius: 100%;
+            font-size: 16px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            }
+
+        .share-btn:hover{
+            background: #005eff;
+            color: white;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="imgbox">
+            <img class="img" src="/css/landing/Screenshot-2025-09-09-at-21.27.45.webp" alt="">
+        </div>
+        <div class="content">
+            <h4 class="no">iPhone 16 Pro Max</h4>
+            <p class="y">Latest flagship with a stunning 6.9-inch Super Retina XDR display and super-smooth 120 Hz refresh rate for vibrant visuals and immersive viewing</p>
+            <div class="add">
+                <div style="padding-top: 1px;">
+                    <h3>$1299.99</h3>
+                </div>
+                <div>
+                    <button class="cart">Add to cart</button>
+                </div>
+            </div>
+        <div class="share">
+            <div>
+                <button class="like-btn liked">
+            <i class="fa-solid fa-heart"></i>
+            </button>
+            </div>    
+        <div >
+            <button class="share-btn">
+            <i class="fa-solid fa-share-nodes"></i>
+            </button>
+        </div>
+
+        </div>
+        </div>
+    </div>
+</body>
+</html>

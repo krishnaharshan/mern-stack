@@ -1,0 +1,44 @@
+<div class="container3">
+    <div class="a">
+      <div class="b">
+         <img src="/css/imges/landscape/pexels-nina-hill-76946523-17491584.jpg" alt="">
+      </div>
+      <div class="j">
+        <p>
+        Lorem ipsum dolor sit amet.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        <button>
+          <a style="color: white;" href="https://www.youtube.com/watch?v=9gBR0gQBSCM&list=RD9gBR0gQBSCM&start_radio=1">Click Here</a>
+        </button>
+      </div>
+    </div>
+    <div class="a">
+      <div class="b">
+         <img src="/css/imges/landscape/pexels-yasin-onus-520099596-35611187.jpg" alt="">
+      </div>
+      <div class="j">
+        <p>
+        Lorem ipsum dolor sit amet.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        <button>
+          <a style="color: white;" href="https://www.youtube.com/watch?v=l2GJB-kvnww">Click Here</a>
+        </button>
+      </div>
+     </div> 
+    <div class="a">
+      <div class="b">
+         <img src="/css/imges/landscape/pexels-76506226-11217053.jpg" alt="">
+      </div>
+      <div class="j">
+        <p>
+        Lorem ipsum dolor sit amet.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        <button>
+          <a style="color: white;" href="https://www.youtube.com/watch?v=s9NBDKfVg1c&list=RDs9NBDKfVg1c&start_radio=1">Click Here</a>
+        </button>
+      </div>
+    </div>  
+  </div>

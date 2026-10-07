@@ -1,0 +1,172 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: white;
+}
+.nav-container{
+    margin: 30px;
+
+}
+h2{
+    margin: 15px;
+}
+.nav1{
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+.nav1 ul{
+list-style-type: none;
+  display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+.nav1 a{
+
+    text-decoration: none;
+    font-weight: bold;
+    color: #1a1a1a;
+    padding: 5px 10px;
+    position: relative;
+}
+.nav1 li{
+    display: inline;
+}
+.nav1 .login-b{
+    background-color:#007bff ;
+    width: 54px;
+    border: solid;
+    border-color: #007bff;
+    color: #f8f9fa;
+    font-weight: bold;
+}
+.nav1 a::after{
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #007bff;
+    transform: scaleX(0);
+    transition: transform 0.6s;
+
+}
+.nav1 a:hover::after{
+    transform: scaleX(1);
+}
+.nav2{
+    background-color: rgb(254, 138, 229);
+    width: 200px;
+ 
+}
+.nav2 ul{
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+}
+.nav2 li{
+    padding-top: 10px;
+    padding-left: 25px;
+    position: relative;
+    
+    
+}
+.nav2 a{
+    text-decoration: none;
+    color: #ffff;
+    
+}
+/* .nav2 a::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    transform: scaleX(0);
+    transition: transform 0.5s ;
+    left:0 ;
+    bottom: 0;
+
+}
+.nav2 a:hover::after{
+    transform: scaleX(1);
+} */
+ /* .nav2 li::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(251, 6, 198);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: transform 0.6s;
+ } 
+ .nav2 li:hover::after{
+    transform: scaleX(1);
+ } */
+.nav2 li:hover{
+    background-color: rgb(235, 7, 182);
+}
+.nav2 .login-b{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    width: 85%;
+    height: 24px;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+.login-b:hover{
+    background-color:#ffff;
+    color: black;
+    border: 2px solid #ffff;
+    
+
+}
+.nav3{
+background-color: rgb(42, 150, 42);
+}
+.nav3 a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+.nav3 ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.nav3 .login-b{
+    margin-top: 7px;
+    background-color: #1a1a1a;
+    border: 2px solid black;
+    width: 105px;
+    height: 26px;
+    color: white;
+}
+
+.dropdown-content
+{
+display:none;
+background-color: #f8f9fa;
+min-width: 150px;
+background-color: rgb(42, 150, 42);
+
+}
+.nav3 .dropdown-content a{
+    margin-bottom:10px ;
+  
+}
+.nav3 .dropdown:hover .dropdown-content{
+    display: block;
+    position: absolute;
+}
+.dropdown-content a:hover{
+    background-color: rgb(89, 216, 89);;
+}

@@ -1,0 +1,56 @@
+/*
+A while loop in JavaScript is used to repeatedly execute a block of code
+as long as a given condition is true. The condition is checked before
+each iteration, so if it’s false initially, the loop won’t run at all.
+It’s commonly used when the number of iterations is not known in advance,
+such as reading input or processing data until a condition changes.
+*/
+// syntax
+/*
+while(condition){
+
+    block of code
+
+}
+*/
+
+/*
+A for loop in JavaScript runs a block of code a fixed number of times
+ using initialization, condition, and update in one line.
+
+*/
+
+/*
+    Syntax
+
+for (initialization; condition; update) {
+    // code to execute
+}
+
+*/
+
+/*
+    for…in
+Used to loop over keys/indexes of an object or array.
+
+for (let key in obj) {
+  // use obj[key]
+}
+
+
+for…of
+Used to loop over values of iterable objects (arrays, strings).
+
+for (let value of arr) {
+  // use value
+}
+
+
+forEach
+An array method that runs a function for each element.
+
+arr.forEach((value, index) => {
+  // use value and index
+});
+
+*/
